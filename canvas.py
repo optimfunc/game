@@ -41,7 +41,7 @@ class Canvas:
         self.window_surface = pygame.display.set_mode(gui_resolution)
 
         self.background = pygame.Surface(gui_resolution)
-        self.background.fill(pygame.Color('#000000'))
+        self.background.fill(pygame.Color('#808080'))
         self.ui_manager = pygame_gui.UIManager(gui_resolution)
         self.clock = pygame.time.Clock()
         self.is_running = True
